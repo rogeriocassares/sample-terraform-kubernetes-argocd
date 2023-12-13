@@ -4,10 +4,6 @@ terraform {
       source = "tehcyx/kind"
       version = "0.2.1"
     }
-    # k3d = {
-    #   source = "pvotal-tech/k3d"
-    #   version = "0.0.7"
-    # }
     kubectl = {
       source  = "gavinbunney/kubectl"
       version = "1.14.0"
@@ -16,7 +12,6 @@ terraform {
 }
 
 provider "kind" {}
-# provider "k3d" {}
 
 resource "kind_cluster" "default" {
   name = var.cluster_name
