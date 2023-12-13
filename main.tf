@@ -8,10 +8,10 @@ terraform {
     #   source = "pvotal-tech/k3d"
     #   version = "0.0.7"
     # }
-    # kubectl = {
-    #   source  = "gavinbunney/kubectl"
-    #   version = "1.14.0"
-    # }
+    kubectl = {
+      source  = "gavinbunney/kubectl"
+      version = "1.14.0"
+    }
   }
 }
 

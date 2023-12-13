@@ -3,7 +3,7 @@ applications:
    namespace: argocd
    project: default
    source:
-     repoURL: https://github.com/piomin/openshift-cluster-config.git
+     repoURL: https://github.com/rogeriocassares/openshift-cluster-config.git
      targetRevision: HEAD
      path: apps/simple-with-secret
    destination:
@@ -19,7 +19,7 @@ applications:
    namespace: argocd
    project: default
    source:
-     repoURL: https://github.com/piomin/openshift-cluster-config.git
+     repoURL: https://github.com/rogeriocassares/openshift-cluster-config.git
      targetRevision: HEAD
      path: apps/simple-with-secret
    destination:
